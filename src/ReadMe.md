@@ -1,1 +1,1 @@
-# this file to explain source code and how to replicate the experiments with the code.
+# the source code and explanation of how to replicate the experiments with the code.
