@@ -10,19 +10,19 @@ public class BlocksWorld {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
 		// TODO Auto-generated method stub
 		
-		int[] goalsArray = new int[]{2,4,6};
+		int[] goalsArray = new int[]{3,6,9};
 		FileWriter csvWriter = new FileWriter("./statistics.csv");
 		csvWriter.append("Goals,Model,Step,Time,Cost,Prob,Results\n");
 		for(int goals : goalsArray) {
-			String folder = "./sokoban/training/sokoban_" + goals + "/";
+			String folder = "./bw_training/bw_" + goals + "/";
 			@SuppressWarnings("rawtypes")
 			// create and index all PetriNet model in the folder
 			alignmentTool alignmentTool = new alignmentTool(goals, folder);
 			for (int i = 0; i < goals; i++) {
-				File dir = new File("./sokoban/testing/sokoban_"+ goals + "/");
+				File dir = new File("./bw_testing/bw_"+ goals + "/");
 				File listDir[] = dir.listFiles();
 				
-				File dir_goal = new File("./sokoban/testing/sokoban_"+ goals + "/goal" + i + "/");
+				File dir_goal = new File("./bw_testing/bw_"+ goals + "/goal" + i + "/");
 				File goalDir[] = dir_goal.listFiles();
 				int test = goalDir.length;
 				

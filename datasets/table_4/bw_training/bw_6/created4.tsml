@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tsml label="PTS (mined from Anonymous log imported from created4.xes)" layout="true">
+<state weight="334" id="state1">
+<name>
+<text>
+25</text>
+</name>
+<graphics>
+<position x="242.0" y="677.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.811141"/>
+</graphics>
+</state>
+<state weight="334" id="state2">
+<name>
+<text>
+6</text>
+</name>
+<graphics>
+<position x="252.0" y="127.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.811141"/>
+</graphics>
+</state>
+<state weight="167" id="state3">
+<name>
+<text>
+1</text>
+</name>
+<graphics>
+<position x="286.5" y="72.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.117994"/>
+</graphics>
+</state>
+<state weight="263" id="state4">
+<name>
+<text>
+39</text>
+</name>
+<graphics>
+<position x="225.5" y="732.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.572154"/>
+</graphics>
+</state>
+<state weight="34" id="state5">
+<name>
+<text>
+105</text>
+</name>
+<graphics>
+<position x="173.0" y="237.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.5263605"/>
+</graphics>
+</state>
+<state weight="334" id="state6">
+<name>
+<text>
+68</text>
+</name>
+<graphics>
+<position x="266.5" y="402.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.811141"/>
+</graphics>
+</state>
+<state weight="40" id="state7">
+<name>
+<text>
+52</text>
+</name>
+<graphics>
+<position x="240.5" y="347.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.6888795"/>
+</graphics>
+</state>
+<state weight="334" id="state8">
+<name>
+<text>
+9</text>
+</name>
+<graphics>
+<position x="236.0" y="622.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.811141"/>
+</graphics>
+</state>
+<state weight="128" id="state9">
+<name>
+<text>
+56</text>
+</name>
+<graphics>
+<position x="240.5" y="787.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.8520303"/>
+</graphics>
+</state>
+<state weight="334" id="state10">
+<name>
+<text>
+109</text>
+</name>
+<graphics>
+<position x="180.5" y="292.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.811141"/>
+</graphics>
+</state>
+<state weight="334" id="state11">
+<name>
+<text>
+119</text>
+</name>
+<graphics>
+<position x="282.5" y="567.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.811141"/>
+</graphics>
+</state>
+<state weight="142" id="state12">
+<name>
+<text>
+20</text>
+</name>
+<graphics>
+<position x="161.0" y="182.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.955827"/>
+</graphics>
+</state>
+<state weight="74" id="state13">
+<name>
+<text>
+5</text>
+</name>
+<graphics>
+<position x="171.0" y="622.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.304065"/>
+</graphics>
+</state>
+<state weight="202" id="state14">
+<name>
+<text>
+141</text>
+</name>
+<graphics>
+<position x="301.0" y="622.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.3082676"/>
+</graphics>
+</state>
+<state weight="132" id="state15">
+<name>
+<text>
+100</text>
+</name>
+<graphics>
+<position x="160.0" y="457.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.882802"/>
+</graphics>
+</state>
+<state weight="88" id="state16">
+<name>
+<text>
+13</text>
+</name>
+<graphics>
+<position x="280.0" y="512.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.477337"/>
+</graphics>
+</state>
+<state weight="144" id="state17">
+<name>
+<text>
+50</text>
+</name>
+<graphics>
+<position x="227.0" y="182.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.9698133"/>
+</graphics>
+</state>
+<state weight="1" id="state18" accept="true">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<position x="220.5" y="842.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</state>
+<state weight="20" id="state19">
+<name>
+<text>
+86</text>
+</name>
+<graphics>
+<position x="240.0" y="457.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.9957323"/>
+</graphics>
+</state>
+<state weight="190" id="state20">
+<name>
+<text>
+3</text>
+</name>
+<graphics>
+<position x="335.0" y="457.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.247024"/>
+</graphics>
+</state>
+<state weight="1" id="state21" start="true">
+<name>
+<text>
+ |&gt; </text>
+</name>
+<graphics>
+<position x="286.5" y="17.5"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</state>
+<transition weight="1" id="transition1" source="state6" target="state12">
+<name>
+<text>
+(stack o w)+</text>
+</name>
+<graphics>
+<position x="77.5" y="347.5"/>
+<position x="77.5" y="292.5"/>
+<position x="77.5" y="237.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition2" source="state4" target="state9">
+<name>
+<text>
+(pick-up a)+</text>
+</name>
+<graphics>
+<position x="261.94291463713193" y="752.1064778262368"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition3" source="state4" target="state9">
+<name>
+<text>
+(unstack a p)+</text>
+</name>
+<graphics>
+<position x="254.70718597784898" y="754.0798583696776"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition4" source="state4" target="state9">
+<name>
+<text>
+(pick-up p)+</text>
+</name>
+<graphics>
+<position x="247.47145731856597" y="756.0532389131183"/>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition5" source="state4" target="state9">
+<name>
+<text>
+(unstack d e)+</text>
+</name>
+<graphics>
+<position x="240.23572865928298" y="758.0266194565592"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition6" source="state4" target="state9">
+<name>
+<text>
+(unstack d p)+</text>
+</name>
+<graphics>
+<position x="225.76427134071702" y="761.9733805434408"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition7" source="state4" target="state9">
+<name>
+<text>
+(pick-up d)+</text>
+</name>
+<graphics>
+<position x="204.05708536286804" y="767.8935221737632"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition8" source="state4" target="state9">
+<name>
+<text>
+(unstack a e)+</text>
+</name>
+<graphics>
+<position x="211.29281402215102" y="765.9201416303224"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition9" source="state4" target="state9">
+<name>
+<text>
+(unstack a d)+</text>
+</name>
+<graphics>
+<position x="218.52854268143403" y="763.9467610868817"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition10" source="state4" target="state9">
+<name>
+<text>
+(pick-up e)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition11" source="state12" target="state11">
+<name>
+<text>
+(unstack r p)+</text>
+</name>
+<graphics>
+<position x="213.0" y="237.5"/>
+<position x="295.5" y="292.5"/>
+<position x="295.5" y="347.5"/>
+<position x="336.5" y="402.5"/>
+<position x="375.0" y="457.5"/>
+<position x="375.0" y="512.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition12" source="state21" target="state3">
+<name>
+<text>
+ |&gt; </text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition13" source="state6" target="state19">
+<name>
+<text>
+(put-down o)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="11" id="transition14" source="state15" target="state11">
+<name>
+<text>
+(unstack r p)+</text>
+</name>
+<graphics>
+<position x="221.0" y="512.5"/>
+<line shape="line" width="3.3978953"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition15" source="state3" target="state6">
+<name>
+<text>
+(pick-up o)+</text>
+</name>
+<graphics>
+<position x="409.0" y="127.5"/>
+<position x="409.0" y="182.5"/>
+<position x="409.0" y="237.5"/>
+<position x="409.0" y="292.5"/>
+<position x="409.0" y="347.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition16" source="state17" target="state10">
+<name>
+<text>
+(unstack a c)+</text>
+</name>
+<graphics>
+<position x="228.0" y="237.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition17" source="state11" target="state13">
+<name>
+<text>
+(stack r o)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="9" id="transition18" source="state14" target="state10">
+<name>
+<text>
+(unstack a c)+</text>
+</name>
+<graphics>
+<position x="120.0" y="567.5"/>
+<position x="120.0" y="512.5"/>
+<position x="120.0" y="457.5"/>
+<position x="185.5" y="402.5"/>
+<position x="185.5" y="347.5"/>
+<line shape="line" width="3.1972246"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition19" source="state2" target="state17">
+<name>
+<text>
+(put-down d)+</text>
+</name>
+<graphics>
+<position x="242.91387429048476" y="156.55176104112945"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition20" source="state2" target="state17">
+<name>
+<text>
+(stack d e)+</text>
+</name>
+<graphics>
+<position x="236.08612570951524" y="153.44823895887055"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="11" id="transition21" source="state12" target="state5">
+<name>
+<text>
+(pick-up d)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.3978953"/>
+</graphics>
+</transition>
+<transition weight="34" id="transition22" source="state9" target="state18">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<line shape="line" width="4.5263605"/>
+</graphics>
+</transition>
+<transition weight="10" id="transition23" source="state4" target="state18">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<position x="200.5" y="787.5"/>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition24" source="state17" target="state6">
+<name>
+<text>
+(pick-up o)+</text>
+</name>
+<graphics>
+<position x="310.5" y="237.5"/>
+<position x="310.5" y="292.5"/>
+<position x="310.5" y="347.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="11" id="transition25" source="state11" target="state8">
+<name>
+<text>
+(stack r o)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.3978953"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition26" source="state11" target="state14">
+<name>
+<text>
+(stack r o)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition27" source="state10" target="state7">
+<name>
+<text>
+(stack a d)+</text>
+</name>
+<graphics>
+<position x="215.5679347138801" y="314.47134394849445"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition28" source="state10" target="state7">
+<name>
+<text>
+(stack a e)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition29" source="state10" target="state7">
+<name>
+<text>
+(put-down a)+</text>
+</name>
+<graphics>
+<position x="205.4320652861199" y="325.52865605150555"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="20" id="transition30" source="state8" target="state1">
+<name>
+<text>
+(pick-up c)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.9957323"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition31" source="state10" target="state8">
+<name>
+<text>
+(stack a e)+</text>
+</name>
+<graphics>
+<position x="129.5" y="347.5"/>
+<position x="129.5" y="402.5"/>
+<position x="93.5" y="457.5"/>
+<position x="93.5" y="512.5"/>
+<position x="93.5" y="567.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition32" source="state10" target="state8">
+<name>
+<text>
+(stack a p)+</text>
+</name>
+<graphics>
+<position x="137.0" y="347.5"/>
+<position x="137.0" y="402.5"/>
+<position x="101.0" y="457.5"/>
+<position x="101.0" y="512.5"/>
+<position x="101.0" y="567.5"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="9" id="transition33" source="state10" target="state8">
+<name>
+<text>
+(put-down a)+</text>
+</name>
+<graphics>
+<position x="122.0" y="347.5"/>
+<position x="122.0" y="402.5"/>
+<position x="86.0" y="457.5"/>
+<position x="86.0" y="512.5"/>
+<position x="86.0" y="567.5"/>
+<line shape="line" width="3.1972246"/>
+</graphics>
+</transition>
+<transition weight="9" id="transition34" source="state10" target="state8">
+<name>
+<text>
+(stack a d)+</text>
+</name>
+<graphics>
+<position x="144.5" y="347.5"/>
+<position x="144.5" y="402.5"/>
+<position x="108.5" y="457.5"/>
+<position x="108.5" y="512.5"/>
+<position x="108.5" y="567.5"/>
+<line shape="line" width="3.1972246"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition35" source="state19" target="state19">
+<name>
+<text>
+(pick-up o)+</text>
+</name>
+<graphics>
+<position x="217.5" y="435.0"/>
+<position x="240.0" y="427.5"/>
+<position x="262.5" y="435.0"/>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition36" source="state12" target="state10">
+<name>
+<text>
+(unstack a c)+</text>
+</name>
+<graphics>
+<position x="133.0" y="237.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition37" source="state5" target="state5">
+<name>
+<text>
+(put-down d)+</text>
+</name>
+<graphics>
+<position x="150.5" y="215.0"/>
+<position x="173.0" y="207.5"/>
+<position x="195.5" y="215.0"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="10" id="transition38" source="state1" target="state4">
+<name>
+<text>
+(stack c r)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</transition>
+<transition weight="37" id="transition39" source="state13" target="state2">
+<name>
+<text>
+(unstack d a)+</text>
+</name>
+<graphics>
+<position x="52.5" y="567.5"/>
+<position x="52.5" y="512.5"/>
+<position x="52.5" y="457.5"/>
+<position x="52.5" y="402.5"/>
+<position x="52.5" y="347.5"/>
+<position x="52.5" y="292.5"/>
+<position x="52.5" y="237.5"/>
+<position x="52.5" y="182.5"/>
+<line shape="line" width="4.610918"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition40" source="state6" target="state20">
+<name>
+<text>
+(stack o w)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition41" source="state20" target="state11">
+<name>
+<text>
+(unstack r p)+</text>
+</name>
+<graphics>
+<position x="320.0" y="512.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition42" source="state19" target="state16">
+<name>
+<text>
+(stack o w)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="10" id="transition43" source="state1" target="state9">
+<name>
+<text>
+(stack c r)+</text>
+</name>
+<graphics>
+<position x="265.5" y="732.5"/>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition44" source="state5" target="state11">
+<name>
+<text>
+(unstack r p)+</text>
+</name>
+<graphics>
+<position x="96.5" y="292.5"/>
+<position x="96.5" y="347.5"/>
+<position x="67.5" y="402.5"/>
+<position x="67.5" y="457.5"/>
+<position x="67.5" y="512.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition45" source="state6" target="state16">
+<name>
+<text>
+(stack o w)+</text>
+</name>
+<graphics>
+<position x="280.0" y="457.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="10" id="transition46" source="state2" target="state14">
+<name>
+<text>
+(stack d p)+</text>
+</name>
+<graphics>
+<position x="354.0" y="182.5"/>
+<position x="354.0" y="237.5"/>
+<position x="354.0" y="292.5"/>
+<position x="354.0" y="347.5"/>
+<position x="397.5" y="402.5"/>
+<position x="397.5" y="457.5"/>
+<position x="397.5" y="512.5"/>
+<position x="397.5" y="567.5"/>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition47" source="state2" target="state14">
+<name>
+<text>
+(put-down d)+</text>
+</name>
+<graphics>
+<position x="361.5" y="182.5"/>
+<position x="361.5" y="237.5"/>
+<position x="361.5" y="292.5"/>
+<position x="361.5" y="347.5"/>
+<position x="405.0" y="402.5"/>
+<position x="405.0" y="457.5"/>
+<position x="405.0" y="512.5"/>
+<position x="405.0" y="567.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition48" source="state2" target="state14">
+<name>
+<text>
+(stack d e)+</text>
+</name>
+<graphics>
+<position x="346.5" y="182.5"/>
+<position x="346.5" y="237.5"/>
+<position x="346.5" y="292.5"/>
+<position x="346.5" y="347.5"/>
+<position x="390.0" y="402.5"/>
+<position x="390.0" y="457.5"/>
+<position x="390.0" y="512.5"/>
+<position x="390.0" y="567.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition49" source="state3" target="state2">
+<name>
+<text>
+(unstack d a)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition50" source="state5" target="state10">
+<name>
+<text>
+(unstack a c)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition51" source="state2" target="state12">
+<name>
+<text>
+(put-down d)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition52" source="state7" target="state6">
+<name>
+<text>
+(pick-up o)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition53" source="state6" target="state15">
+<name>
+<text>
+(stack o w)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition54" source="state5" target="state16">
+<name>
+<text>
+(stack d e)+</text>
+</name>
+<graphics>
+<position x="280.5" y="292.5"/>
+<position x="280.5" y="347.5"/>
+<position x="306.5" y="402.5"/>
+<position x="295.0" y="457.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition55" source="state2" target="state16">
+<name>
+<text>
+(stack d e)+</text>
+</name>
+<graphics>
+<position x="394.0" y="182.5"/>
+<position x="394.0" y="237.5"/>
+<position x="394.0" y="292.5"/>
+<position x="394.0" y="347.5"/>
+<position x="420.0" y="402.5"/>
+<position x="420.0" y="457.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition56" source="state16" target="state10">
+<name>
+<text>
+(unstack a c)+</text>
+</name>
+<graphics>
+<position x="200.0" y="457.5"/>
+<position x="200.5" y="402.5"/>
+<position x="200.5" y="347.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition57" source="state16" target="state11">
+<name>
+<text>
+(unstack r p)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition58" source="state10" target="state15">
+<name>
+<text>
+(stack a d)+</text>
+</name>
+<graphics>
+<position x="163.0" y="347.5"/>
+<position x="163.0" y="402.5"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition59" source="state10" target="state15">
+<name>
+<text>
+(stack a e)+</text>
+</name>
+<graphics>
+<position x="170.5" y="347.5"/>
+<position x="170.5" y="402.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition60" source="state10" target="state15">
+<name>
+<text>
+(put-down a)+</text>
+</name>
+<graphics>
+<position x="155.5" y="347.5"/>
+<position x="155.5" y="402.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition61" source="state20" target="state2">
+<name>
+<text>
+(unstack d a)+</text>
+</name>
+<graphics>
+<position x="351.5" y="402.5"/>
+<position x="330.0" y="347.5"/>
+<position x="330.0" y="292.5"/>
+<position x="330.0" y="237.5"/>
+<position x="330.0" y="182.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+</tsml>
