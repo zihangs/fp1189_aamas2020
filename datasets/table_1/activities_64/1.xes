@@ -1,0 +1,2990 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- XES version 1.0 -->
+<!-- Created by Fluxicon Disco (http://fluxicon.com/disco/ -->
+<!-- (c) 2012 Fluxicon Process Laboratories - http://fluxicon.com/ -->
+<log xes.version="1.0" xmlns="http://www.xes-standard.org" xes.creator="Fluxicon Disco">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="name"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="name"/>
+		<string key="lifecycle:transition" value="transition"/>
+		<date key="time:timestamp" value="2015-10-16T16:07:58.513+02:00"/>
+		<string key="watchingtv" value="string"/>
+	</global>
+	<classifier name="Activity" keys="watchingtv"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="creator" value="Fluxicon Disco"/>
+	<string key="library" value="Fluxicon Octane"/>
+	<trace>
+		<string key="concept:name" value="71"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T02:26:35.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T02:26:35.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T02:26:35.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T02:29:42.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T02:31:05.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T02:31:25.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T02:32:00.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T02:33:51.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T02:34:31.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T09:46:36.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T09:52:17.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T09:55:58.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T09:57:25.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:00:56.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:03:54.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:17:34.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:18:06.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:21:07.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:21:27.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:34:23.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:35:53.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:36:04.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:38:46.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:42:03.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:43:21.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T10:44:16.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T10:47:19.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T12:33:39.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T12:35:58.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T12:43:48.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T12:44:01.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T12:44:52.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T12:45:24.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T14:41:43.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T14:42:13.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T16:25:40.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T16:30:16.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T16:30:26.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T16:30:35.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T16:30:54.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T16:30:57.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T16:31:12.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T16:32:01.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T20:25:55.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T20:26:26.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T20:43:49.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T20:44:35.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T20:45:44.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T20:46:00.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T20:46:28.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T20:46:41.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T20:53:52.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T20:54:16.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T20:55:17.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T20:56:04.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-17T21:18:59.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-17T21:19:07.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T00:35:14.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T00:35:14.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T00:35:14.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="81"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T00:39:21.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T00:39:21.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T00:39:21.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T01:34:09.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T01:39:12.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T08:59:44.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:05:11.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T09:06:13.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:07:25.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T09:11:18.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:14:33.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T09:21:10.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:22:11.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T09:29:48.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:30:21.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T09:44:55.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:47:31.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T09:53:35.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T09:59:28.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T10:33:24.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T10:36:39.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T10:49:01.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T10:53:04.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T14:49:57.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T14:50:05.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T14:55:05.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T16:54:05.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T17:10:05.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T17:14:29.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T17:20:07.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T17:25:55.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T17:26:16.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T17:27:00.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T17:30:51.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T17:31:01.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T17:44:29.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T17:44:33.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T17:45:19.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T17:45:33.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T19:52:49.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T19:53:25.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T22:23:43.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingDinner"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T22:24:01.000+01:00"/>
+			<string key="watchingtv" value="eatingDinner"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingDinner"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T22:29:09.000+01:00"/>
+			<string key="watchingtv" value="eatingDinner"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T22:30:32.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T22:42:51.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T22:43:37.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T22:43:40.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T23:00:21.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T23:02:55.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T23:03:09.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T23:03:11.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T23:03:16.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T23:03:18.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T23:03:23.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-18T23:04:42.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-18T23:05:14.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-19T00:10:09.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-19T00:10:09.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-19T00:10:09.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="141"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T00:27:03.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T00:27:03.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T00:27:03.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T00:27:05.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T00:27:55.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T00:32:40.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T00:33:40.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T10:02:43.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T10:04:19.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T10:13:23.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T10:17:59.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T10:19:05.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T10:19:20.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T11:13:02.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T11:16:16.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T11:29:23.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T11:30:11.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T11:38:32.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T11:39:54.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T11:52:27.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T11:53:50.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T11:55:31.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T11:59:55.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T12:00:10.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T12:01:15.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T12:08:51.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T12:09:01.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T12:30:55.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T12:31:07.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T13:55:58.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T14:32:06.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T14:32:34.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T14:32:38.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T14:32:46.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T14:35:37.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T14:35:40.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T14:36:10.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T15:59:56.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:00:28.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:00:44.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T16:00:46.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:01:08.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T16:01:27.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T16:01:31.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:02:20.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:02:50.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T16:03:09.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T16:03:23.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:03:25.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T16:03:28.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T16:04:20.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T19:56:16.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T19:58:22.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T20:07:59.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T20:08:09.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T22:00:08.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T22:01:13.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T22:01:58.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T22:02:10.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T22:02:32.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingDinner"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T22:15:01.000+01:00"/>
+			<string key="watchingtv" value="eatingDinner"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingDinner"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T22:18:52.000+01:00"/>
+			<string key="watchingtv" value="eatingDinner"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T22:19:00.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T22:19:18.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T23:21:02.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-24T23:21:53.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-24T23:23:06.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T01:48:15.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T01:48:15.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T01:48:15.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="151"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T01:50:18.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T01:50:18.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T01:50:18.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T09:24:18.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T09:29:08.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T09:29:19.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T09:30:10.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T09:30:29.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T09:31:21.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T09:38:52.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T09:43:30.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T09:44:05.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T09:44:53.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T09:54:25.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T09:55:56.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T10:02:58.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T10:03:15.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T10:10:28.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T10:11:15.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T10:21:28.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T10:22:02.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T10:42:38.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T10:44:42.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T13:39:24.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T13:41:47.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T13:49:56.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T13:50:07.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T14:40:52.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T14:41:34.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T15:00:15.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T15:01:22.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T15:25:07.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T15:47:11.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T15:57:57.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T15:58:27.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T20:11:36.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T20:13:37.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T20:14:47.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T20:15:23.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T22:10:13.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingDinner"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T22:13:30.000+01:00"/>
+			<string key="watchingtv" value="eatingDinner"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingDinner"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-25T22:14:01.000+01:00"/>
+			<string key="watchingtv" value="eatingDinner"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-25T22:14:31.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-26T01:29:36.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-11-26T01:29:36.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-11-26T01:29:36.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="211"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:10:10.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:10:10.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:10:10.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:10:12.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:10:20.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:11:26.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:12:20.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:13:54.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:15:14.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:16:11.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:16:18.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:16:21.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:16:59.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T00:17:36.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T00:18:00.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T09:40:43.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T09:46:39.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T09:48:57.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T09:50:13.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:00:45.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:01:13.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:33:45.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:34:30.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:36:56.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:37:12.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:43:43.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:45:29.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:48:03.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:52:51.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:53:15.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:54:06.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T10:54:10.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T10:54:36.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T11:24:40.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T11:29:24.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T12:15:45.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T12:16:05.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T12:51:36.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T12:52:11.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T13:20:19.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T13:21:30.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T13:37:33.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T14:10:47.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T15:48:58.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T15:49:11.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T18:50:28.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T18:52:00.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T18:52:17.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T18:53:45.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T21:08:17.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T21:10:04.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T21:10:08.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T21:11:00.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-01T21:19:41.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-01T21:20:19.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T01:30:24.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T01:30:24.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T01:30:24.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="221"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T01:32:33.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T01:32:33.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T01:32:33.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T01:33:50.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T01:34:02.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T01:36:45.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T01:38:38.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T01:39:35.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T01:41:02.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T09:20:15.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T09:25:11.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T09:25:39.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T10:16:06.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T10:16:09.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T10:20:06.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T10:24:39.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T10:26:32.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T10:29:50.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T11:29:44.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T11:33:44.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T11:34:31.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T11:35:52.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T11:35:58.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T11:49:33.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T11:50:00.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T11:51:12.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T11:53:47.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T11:53:59.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T11:54:34.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T12:23:50.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T12:24:22.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T13:34:05.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T13:37:04.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T14:57:07.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T15:14:10.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T15:24:46.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T15:25:10.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T15:40:46.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T16:45:05.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T17:07:31.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T17:10:38.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T18:45:10.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T18:46:49.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T19:15:49.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T19:16:04.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T20:28:51.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T20:29:11.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T20:29:15.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T20:29:33.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T20:29:37.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T20:39:12.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grooming"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-02T20:39:20.000+01:00"/>
+			<string key="watchingtv" value="grooming"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-02T20:41:25.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-03T01:03:12.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2012-12-03T01:03:12.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-12-03T01:03:12.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="62"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T01:47:02.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T01:47:02.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T01:47:02.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T11:56:20.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T11:59:15.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T11:59:42.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T11:59:45.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T12:01:34.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T12:03:36.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T12:08:55.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T12:10:35.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T12:13:58.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T12:14:05.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T12:21:30.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T12:21:55.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T13:28:36.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T13:29:22.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T13:29:32.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T13:29:48.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T14:01:20.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T14:11:10.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T14:14:43.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T14:18:11.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T17:48:37.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T17:50:14.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T23:53:24.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T23:54:51.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-03T23:55:18.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-03T23:55:21.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T03:16:13.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T03:16:13.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T03:16:13.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="72"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T03:19:17.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T03:19:17.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T03:19:17.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T12:37:49.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T12:45:44.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T12:46:15.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T12:46:20.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T12:47:28.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T12:50:56.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T12:54:55.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T12:56:43.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T12:58:37.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T12:58:42.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T13:00:05.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T13:00:53.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T13:58:10.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T14:03:42.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T14:04:13.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T14:11:50.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T16:31:01.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T16:34:00.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T17:25:39.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T17:27:03.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T17:27:08.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T17:27:16.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T17:43:56.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T17:45:15.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T17:45:19.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T18:08:28.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T18:57:52.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T18:59:06.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T18:59:09.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T18:59:12.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T18:59:33.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T18:59:53.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="snack"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T18:59:59.000+01:00"/>
+			<string key="watchingtv" value="snack"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T19:00:04.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T22:20:59.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T22:21:42.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T22:21:45.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T22:21:57.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-04T22:22:10.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-04T22:22:19.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-05T01:28:09.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-05T01:28:09.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-05T01:28:09.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="132"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T00:16:31.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T00:16:31.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T00:16:31.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T00:16:49.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T00:17:05.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T00:46:13.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T00:50:47.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T09:26:17.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T09:35:48.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T09:36:18.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T09:37:26.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T09:46:27.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T09:47:44.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T09:52:42.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T09:55:50.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T09:58:24.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T09:59:05.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T10:03:15.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T10:03:20.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T12:34:09.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T12:52:54.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T12:53:39.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T13:04:03.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T17:07:03.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T17:11:23.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T20:16:51.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T20:21:54.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-10T20:23:16.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-10T20:25:40.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="outdoors"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T00:56:05.000+01:00"/>
+			<string key="watchingtv" value="outdoors"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T00:56:05.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T00:56:05.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="142"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T01:01:41.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Start"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T01:01:41.000+01:00"/>
+			<string key="watchingtv" value="Start"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T01:01:41.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T02:26:08.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T02:31:15.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="sleeping"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T11:57:34.000+01:00"/>
+			<string key="watchingtv" value="sleeping"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T12:01:27.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T12:01:59.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T12:02:25.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T12:02:39.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T12:02:56.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shower"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T12:18:42.000+01:00"/>
+			<string key="watchingtv" value="shower"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T12:21:57.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T12:25:12.000+01:00"/>
+			<string key="watchingtv" value="prepareBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T12:25:42.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingBreakfast"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T12:32:35.000+01:00"/>
+			<string key="watchingtv" value="eatingBreakfast"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T12:32:49.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="watchingtv"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T14:26:18.000+01:00"/>
+			<string key="watchingtv" value="watchingtv"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T14:36:58.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="prepareLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T15:00:37.000+01:00"/>
+			<string key="watchingtv" value="prepareLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T15:01:58.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="eatingLunch"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T15:28:37.000+01:00"/>
+			<string key="watchingtv" value="eatingLunch"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T15:29:03.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="toilet"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T15:30:14.000+01:00"/>
+			<string key="watchingtv" value="toilet"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T15:41:34.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="washing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T15:43:30.000+01:00"/>
+			<string key="watchingtv" value="washing"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2011-12-11T15:43:30.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-12-11T15:43:30.000+01:00"/>
+			<string key="watchingtv" value="End"/>
+		</event>
+	</trace>
+</log>

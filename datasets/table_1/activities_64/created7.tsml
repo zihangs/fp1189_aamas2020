@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tsml label="PTS (mined from Anonymous log imported from created7.xes)" layout="true">
+<state weight="4" id="state1">
+<name>
+<text>
+1</text>
+</name>
+<graphics>
+<position x="176.0" y="72.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</state>
+<state weight="16" id="state2">
+<name>
+<text>
+19</text>
+</name>
+<graphics>
+<position x="178.5" y="622.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="4" id="state3">
+<name>
+<text>
+20</text>
+</name>
+<graphics>
+<position x="77.0" y="677.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</state>
+<state weight="16" id="state4">
+<name>
+<text>
+6</text>
+</name>
+<graphics>
+<position x="182.0" y="347.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="12" id="state5">
+<name>
+<text>
+4</text>
+</name>
+<graphics>
+<position x="162.5" y="237.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</state>
+<state weight="20" id="state6">
+<name>
+<text>
+24</text>
+</name>
+<graphics>
+<position x="142.0" y="677.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.9957323"/>
+</graphics>
+</state>
+<state weight="28" id="state7">
+<name>
+<text>
+13</text>
+</name>
+<graphics>
+<position x="164.5" y="787.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.3322043"/>
+</graphics>
+</state>
+<state weight="16" id="state8">
+<name>
+<text>
+28</text>
+</name>
+<graphics>
+<position x="183.5" y="402.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="12" id="state9">
+<name>
+<text>
+29</text>
+</name>
+<graphics>
+<position x="164.5" y="457.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</state>
+<state weight="15" id="state10">
+<name>
+<text>
+14</text>
+</name>
+<graphics>
+<position x="182.0" y="842.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7080503"/>
+</graphics>
+</state>
+<state weight="16" id="state11">
+<name>
+<text>
+26</text>
+</name>
+<graphics>
+<position x="181.5" y="292.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="16" id="state12">
+<name>
+<text>
+17</text>
+</name>
+<graphics>
+<position x="199.0" y="567.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="16" id="state13">
+<name>
+<text>
+12</text>
+</name>
+<graphics>
+<position x="169.0" y="732.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="16" id="state14">
+<name>
+<text>
+18</text>
+</name>
+<graphics>
+<position x="242.5" y="732.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="16" id="state15">
+<name>
+<text>
+30</text>
+</name>
+<graphics>
+<position x="189.0" y="512.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="16" id="state16">
+<name>
+<text>
+2</text>
+</name>
+<graphics>
+<position x="177.5" y="127.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="26" id="state17">
+<name>
+<text>
+22</text>
+</name>
+<graphics>
+<position x="117.0" y="842.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.2580967"/>
+</graphics>
+</state>
+<state weight="8" id="state18">
+<name>
+<text>
+11</text>
+</name>
+<graphics>
+<position x="207.0" y="677.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.0794415"/>
+</graphics>
+</state>
+<state weight="28" id="state19">
+<name>
+<text>
+25</text>
+</name>
+<graphics>
+<position x="104.0" y="732.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.3322043"/>
+</graphics>
+</state>
+<state weight="52" id="state20">
+<name>
+<text>
+21</text>
+</name>
+<graphics>
+<position x="95.0" y="787.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.951244"/>
+</graphics>
+</state>
+<state weight="1" id="state21" accept="true">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<position x="182.0" y="897.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</state>
+<state weight="1" id="state22" start="true">
+<name>
+<text>
+ |&gt; </text>
+</name>
+<graphics>
+<position x="176.0" y="17.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</state>
+<state weight="68" id="state23">
+<name>
+<text>
+3</text>
+</name>
+<graphics>
+<position x="180.5" y="182.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.2195077"/>
+</graphics>
+</state>
+<state weight="63" id="state24">
+<name>
+<text>
+35</text>
+</name>
+<graphics>
+<position x="232.0" y="787.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.1431346"/>
+</graphics>
+</state>
+<transition weight="1" id="transition1" source="state23" target="state11">
+<name>
+<text>
+dress+</text>
+</name>
+<graphics>
+<position x="202.5" y="237.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition2" source="state14" target="state2">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="247.0" y="677.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition3" source="state11" target="state4">
+<name>
+<text>
+groom+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition4" source="state11" target="state11">
+<name>
+<text>
+dress+</text>
+</name>
+<graphics>
+<position x="159.0" y="269.5"/>
+<position x="181.5" y="262.0"/>
+<position x="204.0" y="269.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition5" source="state22" target="state1">
+<name>
+<text>
+ |&gt; </text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition6" source="state17" target="state17">
+<name>
+<text>
+personalhygiene+</text>
+</name>
+<graphics>
+<position x="94.5" y="819.5"/>
+<position x="117.0" y="812.0"/>
+<position x="139.5" y="819.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition7" source="state17" target="state17">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="87.0" y="812.0"/>
+<position x="117.0" y="804.5"/>
+<position x="147.0" y="812.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition8" source="state17" target="state17">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="79.5" y="804.5"/>
+<position x="117.0" y="797.0"/>
+<position x="154.5" y="804.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition9" source="state17" target="state17">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="72.0" y="797.0"/>
+<position x="117.0" y="789.5"/>
+<position x="162.0" y="797.0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition10" source="state5" target="state5">
+<name>
+<text>
+bathe+</text>
+</name>
+<graphics>
+<position x="140.0" y="214.5"/>
+<position x="162.5" y="207.0"/>
+<position x="185.0" y="214.5"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition11" source="state7" target="state10">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition12" source="state12" target="state2">
+<name>
+<text>
+cleaning+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition13" source="state9" target="state15">
+<name>
+<text>
+mealpreperation+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition14" source="state16" target="state23">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition15" source="state17" target="state21">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition16" source="state18" target="state13">
+<name>
+<text>
+personalhygiene+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition17" source="state15" target="state15">
+<name>
+<text>
+mealpreperation+</text>
+</name>
+<graphics>
+<position x="166.5" y="489.5"/>
+<position x="189.0" y="482.0"/>
+<position x="211.5" y="489.5"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition18" source="state23" target="state5">
+<name>
+<text>
+bathe+</text>
+</name>
+<graphics>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition19" source="state14" target="state24">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="14" id="transition20" source="state23" target="state23">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="158.0" y="159.5"/>
+<position x="180.5" y="152.0"/>
+<position x="203.0" y="159.5"/>
+<line shape="line" width="3.6390574"/>
+</graphics>
+</transition>
+<transition weight="16" id="transition21" source="state23" target="state23">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="150.5" y="152.0"/>
+<position x="180.5" y="144.5"/>
+<position x="210.5" y="152.0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition22" source="state2" target="state3">
+<name>
+<text>
+cleaning+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition23" source="state16" target="state16">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="155.0" y="104.5"/>
+<position x="177.5" y="97.0"/>
+<position x="200.0" y="104.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition24" source="state12" target="state12">
+<name>
+<text>
+eatingdrinking+</text>
+</name>
+<graphics>
+<position x="176.5" y="544.5"/>
+<position x="199.0" y="537.0"/>
+<position x="221.5" y="544.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition25" source="state4" target="state4">
+<name>
+<text>
+groom+</text>
+</name>
+<graphics>
+<position x="159.5" y="324.5"/>
+<position x="182.0" y="317.0"/>
+<position x="204.5" y="324.5"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition26" source="state4" target="state8">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition27" source="state19" target="state19">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="81.5" y="709.5"/>
+<position x="104.0" y="702.0"/>
+<position x="126.5" y="709.5"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition28" source="state19" target="state19">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="66.5" y="694.5"/>
+<position x="104.0" y="687.0"/>
+<position x="141.5" y="694.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition29" source="state19" target="state19">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<position x="74.0" y="702.0"/>
+<position x="104.0" y="694.5"/>
+<position x="134.0" y="702.0"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition30" source="state12" target="state14">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<position x="262.0" y="622.0"/>
+<position x="262.0" y="677.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition31" source="state19" target="state19">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="59.0" y="687.0"/>
+<position x="104.0" y="679.5"/>
+<position x="149.0" y="687.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition32" source="state3" target="state20">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<position x="64.0" y="732.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition33" source="state5" target="state11">
+<name>
+<text>
+dress+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition34" source="state3" target="state3">
+<name>
+<text>
+cleaning+</text>
+</name>
+<graphics>
+<position x="54.5" y="654.5"/>
+<position x="77.0" y="647.0"/>
+<position x="99.5" y="654.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition35" source="state15" target="state12">
+<name>
+<text>
+eatingdrinking+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition36" source="state8" target="state8">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="161.0" y="379.5"/>
+<position x="183.5" y="372.0"/>
+<position x="206.0" y="379.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition37" source="state20" target="state17">
+<name>
+<text>
+personalhygiene+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="8" id="transition38" source="state20" target="state20">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="65.0" y="757.0"/>
+<position x="95.0" y="749.5"/>
+<position x="125.0" y="757.0"/>
+<line shape="line" width="3.0794415"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition39" source="state20" target="state20">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="72.5" y="764.5"/>
+<position x="95.0" y="757.0"/>
+<position x="117.5" y="764.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition40" source="state20" target="state20">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<position x="57.5" y="749.5"/>
+<position x="95.0" y="742.0"/>
+<position x="132.5" y="749.5"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition41" source="state20" target="state20">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<position x="50.0" y="742.0"/>
+<position x="95.0" y="734.5"/>
+<position x="140.0" y="742.0"/>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition42" source="state20" target="state20">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="42.5" y="734.5"/>
+<position x="95.0" y="727.0"/>
+<position x="147.5" y="734.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition43" source="state2" target="state2">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="156.0" y="599.5"/>
+<position x="178.5" y="592.0"/>
+<position x="201.0" y="599.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition44" source="state2" target="state2">
+<name>
+<text>
+cleaning+</text>
+</name>
+<graphics>
+<position x="148.5" y="592.0"/>
+<position x="178.5" y="584.5"/>
+<position x="208.5" y="592.0"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition45" source="state1" target="state16">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition46" source="state8" target="state15">
+<name>
+<text>
+mealpreperation+</text>
+</name>
+<graphics>
+<position x="204.5" y="457.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition47" source="state6" target="state19">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition48" source="state2" target="state18">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition49" source="state19" target="state20">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition50" source="state9" target="state9">
+<name>
+<text>
+read+</text>
+</name>
+<graphics>
+<position x="142.0" y="434.5"/>
+<position x="164.5" y="427.0"/>
+<position x="187.0" y="434.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition51" source="state13" target="state13">
+<name>
+<text>
+personalhygiene+</text>
+</name>
+<graphics>
+<position x="146.5" y="709.5"/>
+<position x="169.0" y="702.0"/>
+<position x="191.5" y="709.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition52" source="state13" target="state13">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="139.0" y="702.0"/>
+<position x="169.0" y="694.5"/>
+<position x="199.0" y="702.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition53" source="state13" target="state13">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="131.5" y="694.5"/>
+<position x="169.0" y="687.0"/>
+<position x="206.5" y="694.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition54" source="state13" target="state13">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="124.0" y="687.0"/>
+<position x="169.0" y="679.5"/>
+<position x="214.0" y="687.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="8" id="transition55" source="state24" target="state24">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="202.0" y="757.0"/>
+<position x="232.0" y="749.5"/>
+<position x="262.0" y="757.0"/>
+<line shape="line" width="3.0794415"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition56" source="state24" target="state24">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="194.5" y="749.5"/>
+<position x="232.0" y="742.0"/>
+<position x="269.5" y="749.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition57" source="state18" target="state14">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition58" source="state24" target="state24">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<position x="209.5" y="764.5"/>
+<position x="232.0" y="757.0"/>
+<position x="254.5" y="764.5"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition59" source="state24" target="state24">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<position x="179.5" y="734.5"/>
+<position x="232.0" y="727.0"/>
+<position x="284.5" y="734.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition60" source="state24" target="state24">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="187.0" y="742.0"/>
+<position x="232.0" y="734.5"/>
+<position x="277.0" y="742.0"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition61" source="state24" target="state24">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="172.0" y="727.0"/>
+<position x="232.0" y="719.5"/>
+<position x="292.0" y="727.0"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition62" source="state14" target="state14">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="220.0" y="709.5"/>
+<position x="242.5" y="702.0"/>
+<position x="265.0" y="709.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition63" source="state14" target="state14">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<position x="212.5" y="702.0"/>
+<position x="242.5" y="694.5"/>
+<position x="272.5" y="702.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition64" source="state8" target="state9">
+<name>
+<text>
+read+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition65" source="state7" target="state7">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="134.5" y="757.0"/>
+<position x="164.5" y="749.5"/>
+<position x="194.5" y="757.0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition66" source="state7" target="state7">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="142.0" y="764.5"/>
+<position x="164.5" y="757.0"/>
+<position x="187.0" y="764.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition67" source="state7" target="state7">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<position x="119.5" y="742.0"/>
+<position x="164.5" y="734.5"/>
+<position x="209.5" y="742.0"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition68" source="state7" target="state7">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="112.0" y="734.5"/>
+<position x="164.5" y="727.0"/>
+<position x="217.0" y="734.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition69" source="state7" target="state7">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="127.0" y="749.5"/>
+<position x="164.5" y="742.0"/>
+<position x="202.0" y="749.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition70" source="state13" target="state7">
+<name>
+<text>
+outdoors+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition71" source="state2" target="state6">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition72" source="state10" target="state21">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition73" source="state10" target="state10">
+<name>
+<text>
+personalhygiene+</text>
+</name>
+<graphics>
+<position x="159.5" y="819.5"/>
+<position x="182.0" y="812.0"/>
+<position x="204.5" y="819.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition74" source="state10" target="state10">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="152.0" y="812.0"/>
+<position x="182.0" y="804.5"/>
+<position x="212.0" y="812.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition75" source="state10" target="state10">
+<name>
+<text>
+relax+</text>
+</name>
+<graphics>
+<position x="144.5" y="804.5"/>
+<position x="182.0" y="797.0"/>
+<position x="219.5" y="804.5"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition76" source="state18" target="state18">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="184.5" y="654.5"/>
+<position x="207.0" y="647.0"/>
+<position x="229.5" y="654.5"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition77" source="state10" target="state10">
+<name>
+<text>
+sleep+</text>
+</name>
+<graphics>
+<position x="137.0" y="797.0"/>
+<position x="182.0" y="789.5"/>
+<position x="227.0" y="797.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition78" source="state24" target="state21">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<position x="222.0" y="842.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition79" source="state6" target="state6">
+<name>
+<text>
+toilet+</text>
+</name>
+<graphics>
+<position x="119.5" y="654.5"/>
+<position x="142.0" y="647.0"/>
+<position x="164.5" y="654.5"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition80" source="state6" target="state6">
+<name>
+<text>
+medication+</text>
+</name>
+<graphics>
+<position x="112.0" y="647.0"/>
+<position x="142.0" y="639.5"/>
+<position x="172.0" y="647.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition81" source="state6" target="state6">
+<name>
+<text>
+work+</text>
+</name>
+<graphics>
+<position x="104.5" y="639.5"/>
+<position x="142.0" y="632.0"/>
+<position x="179.5" y="639.5"/>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+</tsml>
