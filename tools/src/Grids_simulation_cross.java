@@ -12,37 +12,50 @@ public class Grids_simulation_cross {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 		
-		int[] worldArray = new int[]{30};
-		int[] goalsArray = new int[]{9};
-		int[] plansArray = new int[]{10};
 		
-		FileWriter csvWriter = new FileWriter("./statistics.csv");
+		// things need to be config
+		int[] worldArray = new int[]{30};  // world size
+		int[] goalsArray = new int[]{9};   // number of goals
+		int[] plansArray = new int[]{10};  // training: X% sub-optimal
+		
+		String outputFile = "grids.csv";
+		String format = "TSML";
+		String model_dir = "../datasets/table_2/xes_grid_training/";
+		String testing = "../datasets/table_2/testing/";
+		String flag = "cross";
+		
+		
+		
+		// start writing file
+		FileWriter csvWriter = new FileWriter("../outputs/" + outputFile);
 		csvWriter.append("World,Goals,Plans,Model,Step,Time,Cost,Prob,Results\n");
-		
-		//FileWriter timeWriter = new FileWriter("./learning_time.csv");
-		//timeWriter.append("World,Goals,Plans,Time\n");
 		
 		for(int world : worldArray) {
 			for(int goals : goalsArray) {
 				for(int plans : plansArray) {
 					
-					String folder = "./xes_grid_training/"+ world +"_"+ goals +"_"+ plans+"/";
+					// index the model
+					String folder = model_dir + world +"_"+ goals +"_"+ plans+"/";
 					
 					// only index once
 					@SuppressWarnings("rawtypes")
 					// create and index all PetriNet model in the folder
-					alignmentTool alignmentTool = new alignmentTool(goals, folder);
+					alignmentTool alignmentTool = new alignmentTool(goals, folder, format);
 					
 					// run simulations
 					for (int i = 0; i < goals; i++) {
 						
-						File dir = new File("./testing/"+ world +"_"+ goals +"_"+ (40-plans));
+						int test_plan;
+						if (flag.contentEquals("cross")) {
+							test_plan = 40 - plans;
+						} else {
+							test_plan = plans;
+						}
+						File dir = new File(testing + world +"_"+ goals +"_"+ test_plan);
 						File listDir[] = dir.listFiles();
 						
 						// how many test cases for each goal
-						
-						
-						File dir_goal = new File("./testing/" + world + "_" + goals + "_" + (40-plans) + "/goal_" + i);
+						File dir_goal = new File(testing + world + "_" + goals + "_" + test_plan + "/goal_" + i);
 						File goalDir[] = dir_goal.listFiles();
 						int test = goalDir.length;
 						
@@ -51,11 +64,6 @@ public class Grids_simulation_cross {
 							Sequence s = xes_generator.pick_sequence(listDir[i].toString(), i, j);
 							int steps = s.sequence.size();
 							
-							/*
-							if (steps == 0) {
-								continue;
-							}
-							*/
 							List<Integer> shuffle_index = shuffle_steps_index(steps);
 							ArrayList<Integer> step_list = percentList(steps);
 							
