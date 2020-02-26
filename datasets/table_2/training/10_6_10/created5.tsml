@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tsml label="PTS (mined from Anonymous log imported from created5.xes)" layout="true">
+<state weight="167" id="state1">
+<name>
+<text>
+165</text>
+</name>
+<graphics>
+<position x="358.5" y="513.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.117994"/>
+</graphics>
+</state>
+<state weight="14" id="state2">
+<name>
+<text>
+143</text>
+</name>
+<graphics>
+<position x="383.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.6390574"/>
+</graphics>
+</state>
+<state weight="110" id="state3">
+<name>
+<text>
+13</text>
+</name>
+<graphics>
+<position x="330.5" y="183.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.7004805"/>
+</graphics>
+</state>
+<state weight="4" id="state4">
+<name>
+<text>
+234</text>
+</name>
+<graphics>
+<position x="573.5" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</state>
+<state weight="62" id="state5">
+<name>
+<text>
+9</text>
+</name>
+<graphics>
+<position x="78.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.1271343"/>
+</graphics>
+</state>
+<state weight="74" id="state6">
+<name>
+<text>
+107</text>
+</name>
+<graphics>
+<position x="298.0" y="403.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.304065"/>
+</graphics>
+</state>
+<state weight="192" id="state7">
+<name>
+<text>
+2</text>
+</name>
+<graphics>
+<position x="256.5" y="128.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.2574954"/>
+</graphics>
+</state>
+<state weight="134" id="state8">
+<name>
+<text>
+97</text>
+</name>
+<graphics>
+<position x="146.0" y="403.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.89784"/>
+</graphics>
+</state>
+<state weight="20" id="state9">
+<name>
+<text>
+63</text>
+</name>
+<graphics>
+<position x="363.0" y="403.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.9957323"/>
+</graphics>
+</state>
+<state weight="230" id="state10">
+<name>
+<text>
+17</text>
+</name>
+<graphics>
+<position x="253.5" y="458.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.4380794"/>
+</graphics>
+</state>
+<state weight="12" id="state11">
+<name>
+<text>
+15</text>
+</name>
+<graphics>
+<position x="294.5" y="348.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</state>
+<state weight="28" id="state12">
+<name>
+<text>
+180</text>
+</name>
+<graphics>
+<position x="464.0" y="458.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.3322043"/>
+</graphics>
+</state>
+<state weight="60" id="state13">
+<name>
+<text>
+65</text>
+</name>
+<graphics>
+<position x="377.5" y="348.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.0943446"/>
+</graphics>
+</state>
+<state weight="42" id="state14">
+<name>
+<text>
+46</text>
+</name>
+<graphics>
+<position x="112.0" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.7376695"/>
+</graphics>
+</state>
+<state weight="146" id="state15">
+<name>
+<text>
+14</text>
+</name>
+<graphics>
+<position x="295.5" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.983607"/>
+</graphics>
+</state>
+<state weight="16" id="state16">
+<name>
+<text>
+247</text>
+</name>
+<graphics>
+<position x="442.5" y="348.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<state weight="120" id="state17">
+<name>
+<text>
+3</text>
+</name>
+<graphics>
+<position x="168.0" y="183.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.787492"/>
+</graphics>
+</state>
+<state weight="4" id="state18">
+<name>
+<text>
+254</text>
+</name>
+<graphics>
+<position x="578.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</state>
+<state weight="2" id="state19">
+<name>
+<text>
+115</text>
+</name>
+<graphics>
+<position x="362.0" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</state>
+<state weight="20" id="state20">
+<name>
+<text>
+89</text>
+</name>
+<graphics>
+<position x="195.0" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.9957323"/>
+</graphics>
+</state>
+<state weight="6" id="state21">
+<name>
+<text>
+176</text>
+</name>
+<graphics>
+<position x="508.5" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</state>
+<state weight="46" id="state22">
+<name>
+<text>
+22</text>
+</name>
+<graphics>
+<position x="229.5" y="348.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.8286414"/>
+</graphics>
+</state>
+<state weight="40" id="state23">
+<name>
+<text>
+39</text>
+</name>
+<graphics>
+<position x="321.5" y="128.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.6888795"/>
+</graphics>
+</state>
+<state weight="52" id="state24">
+<name>
+<text>
+66</text>
+</name>
+<graphics>
+<position x="233.0" y="403.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.951244"/>
+</graphics>
+</state>
+<state weight="46" id="state25">
+<name>
+<text>
+292</text>
+</name>
+<graphics>
+<position x="399.0" y="458.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.8286414"/>
+</graphics>
+</state>
+<state weight="2" id="state26">
+<name>
+<text>
+51</text>
+</name>
+<graphics>
+<position x="223.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</state>
+<state weight="10" id="state27">
+<name>
+<text>
+93</text>
+</name>
+<graphics>
+<position x="460.5" y="403.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</state>
+<state weight="102" id="state28">
+<name>
+<text>
+19</text>
+</name>
+<graphics>
+<position x="386.5" y="128.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.624973"/>
+</graphics>
+</state>
+<state weight="1" id="state29" start="true">
+<name>
+<text>
+ |&gt; </text>
+</name>
+<graphics>
+<position x="321.5" y="18.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</state>
+<state weight="167" id="state30">
+<name>
+<text>
+1</text>
+</name>
+<graphics>
+<position x="321.5" y="73.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="6.117994"/>
+</graphics>
+</state>
+<state weight="4" id="state31">
+<name>
+<text>
+276</text>
+</name>
+<graphics>
+<position x="557.0" y="348.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</state>
+<state weight="1" id="state32" accept="true">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<position x="358.5" y="568.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</state>
+<state weight="44" id="state33">
+<name>
+<text>
+110</text>
+</name>
+<graphics>
+<position x="288.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.7841897"/>
+</graphics>
+</state>
+<state weight="50" id="state34">
+<name>
+<text>
+138</text>
+</name>
+<graphics>
+<position x="143.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.912023"/>
+</graphics>
+</state>
+<state weight="28" id="state35">
+<name>
+<text>
+69</text>
+</name>
+<graphics>
+<position x="395.5" y="183.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.3322043"/>
+</graphics>
+</state>
+<state weight="44" id="state36">
+<name>
+<text>
+50</text>
+</name>
+<graphics>
+<position x="249.0" y="183.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.7841897"/>
+</graphics>
+</state>
+<state weight="28" id="state37">
+<name>
+<text>
+197</text>
+</name>
+<graphics>
+<position x="513.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.3322043"/>
+</graphics>
+</state>
+<state weight="32" id="state38">
+<name>
+<text>
+60</text>
+</name>
+<graphics>
+<position x="481.0" y="183.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="4.465736"/>
+</graphics>
+</state>
+<state weight="8" id="state39">
+<name>
+<text>
+208</text>
+</name>
+<graphics>
+<position x="448.0" y="238.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.0794415"/>
+</graphics>
+</state>
+<state weight="76" id="state40">
+<name>
+<text>
+26</text>
+</name>
+<graphics>
+<position x="164.5" y="348.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="5.3307333"/>
+</graphics>
+</state>
+<state weight="16" id="state41">
+<name>
+<text>
+29</text>
+</name>
+<graphics>
+<position x="443.5" y="293.0"/>
+<dimension x="50.0" y="30.0"/>
+<fill color="#c0c0c0"/>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</state>
+<transition weight="2" id="transition1" source="state6" target="state10">
+<name>
+<text>
+(move loc-x8-y4 loc-x9-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="96" id="transition2" source="state30" target="state7">
+<name>
+<text>
+(move loc-x5-y0 loc-x6-y1)+</text>
+</name>
+<graphics>
+<line shape="line" width="5.564348"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition3" source="state15" target="state11">
+<name>
+<text>
+(move loc-x7-y3 loc-x8-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="26" id="transition4" source="state7" target="state3">
+<name>
+<text>
+(move loc-x6-y1 loc-x6-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="4.2580967"/>
+</graphics>
+</transition>
+<transition weight="7" id="transition5" source="state5" target="state14">
+<name>
+<text>
+(move loc-x8-y3 loc-x9-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.9459102"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition6" source="state15" target="state40">
+<name>
+<text>
+(move loc-x7-y3 loc-x8-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition7" source="state29" target="state30">
+<name>
+<text>
+ |&gt; </text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition8" source="state36" target="state26">
+<name>
+<text>
+(move loc-x7-y1 loc-x7-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition9" source="state23" target="state36">
+<name>
+<text>
+(move loc-x6-y0 loc-x7-y1)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition10" source="state38" target="state39">
+<name>
+<text>
+(move loc-x5-y2 loc-x6-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition11" source="state5" target="state8">
+<name>
+<text>
+(move loc-x8-y3 loc-x9-y4)+</text>
+</name>
+<graphics>
+<position x="57.0" y="293.0"/>
+<position x="57.0" y="348.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition12" source="state15" target="state6">
+<name>
+<text>
+(move loc-x7-y3 loc-x8-y4)+</text>
+</name>
+<graphics>
+<position x="334.5" y="348.0"/>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="20" id="transition13" source="state30" target="state23">
+<name>
+<text>
+(move loc-x5-y0 loc-x6-y0)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.9957323"/>
+</graphics>
+</transition>
+<transition weight="32" id="transition14" source="state3" target="state15">
+<name>
+<text>
+(move loc-x6-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<position x="328.0" y="238.0"/>
+<line shape="line" width="4.465736"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition15" source="state37" target="state13">
+<name>
+<text>
+(move loc-x6-y3 loc-x7-y4)+</text>
+</name>
+<graphics>
+<position x="403.5" y="293.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="18" id="transition16" source="state36" target="state34">
+<name>
+<text>
+(move loc-x7-y1 loc-x8-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.8903718"/>
+</graphics>
+</transition>
+<transition weight="51" id="transition17" source="state30" target="state28">
+<name>
+<text>
+(move loc-x5-y0 loc-x5-y1)+</text>
+</name>
+<graphics>
+<line shape="line" width="4.9318256"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition18" source="state31" target="state12">
+<name>
+<text>
+(move loc-x7-y5 loc-x8-y6)+</text>
+</name>
+<graphics>
+<position x="515.5" y="403.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="18" id="transition19" source="state8" target="state10">
+<name>
+<text>
+(move loc-x9-y4 loc-x9-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.8903718"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition20" source="state39" target="state41">
+<name>
+<text>
+(move loc-x6-y2 loc-x6-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="12" id="transition21" source="state3" target="state33">
+<name>
+<text>
+(move loc-x6-y2 loc-x7-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition22" source="state39" target="state15">
+<name>
+<text>
+(move loc-x6-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition23" source="state34" target="state14">
+<name>
+<text>
+(move loc-x8-y2 loc-x9-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition24" source="state33" target="state15">
+<name>
+<text>
+(move loc-x7-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition25" source="state13" target="state27">
+<name>
+<text>
+(move loc-x7-y4 loc-x7-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition26" source="state33" target="state11">
+<name>
+<text>
+(move loc-x7-y2 loc-x8-y3)+</text>
+</name>
+<graphics>
+<position x="254.0" y="293.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition27" source="state4" target="state27">
+<name>
+<text>
+(move loc-x6-y4 loc-x7-y5)+</text>
+</name>
+<graphics>
+<position x="517.0" y="348.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition28" source="state40" target="state8">
+<name>
+<text>
+(move loc-x8-y4 loc-x9-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition29" source="state33" target="state19">
+<name>
+<text>
+(move loc-x7-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition30" source="state40" target="state10">
+<name>
+<text>
+(move loc-x8-y4 loc-x9-y5)+</text>
+</name>
+<graphics>
+<position x="193.0" y="403.0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition31" source="state38" target="state18">
+<name>
+<text>
+(move loc-x5-y2 loc-x5-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition32" source="state35" target="state33">
+<name>
+<text>
+(move loc-x6-y1 loc-x7-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="10" id="transition33" source="state7" target="state36">
+<name>
+<text>
+(move loc-x6-y1 loc-x7-y1)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition34" source="state20" target="state8">
+<name>
+<text>
+(move loc-x8-y3 loc-x9-y4)+</text>
+</name>
+<graphics>
+<position x="124.5" y="348.0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="85" id="transition35" source="state1" target="state32">
+<name>
+<text>
+ [] </text>
+</name>
+<graphics>
+<line shape="line" width="5.4426513"/>
+</graphics>
+</transition>
+<transition weight="60" id="transition36" source="state7" target="state17">
+<name>
+<text>
+(move loc-x6-y1 loc-x7-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="5.0943446"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition37" source="state17" target="state34">
+<name>
+<text>
+(move loc-x7-y2 loc-x8-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="16" id="transition38" source="state28" target="state38">
+<name>
+<text>
+(move loc-x5-y1 loc-x5-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.7725887"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition39" source="state18" target="state4">
+<name>
+<text>
+(move loc-x5-y3 loc-x6-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition40" source="state13" target="state6">
+<name>
+<text>
+(move loc-x7-y4 loc-x8-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition41" source="state3" target="state37">
+<name>
+<text>
+(move loc-x6-y2 loc-x6-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition42" source="state31" target="state25">
+<name>
+<text>
+(move loc-x7-y5 loc-x8-y5)+</text>
+</name>
+<graphics>
+<position x="500.5" y="403.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition43" source="state26" target="state15">
+<name>
+<text>
+(move loc-x7-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition44" source="state16" target="state25">
+<name>
+<text>
+(move loc-x7-y4 loc-x8-y5)+</text>
+</name>
+<graphics>
+<position x="420.5" y="403.0"/>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition45" source="state22" target="state8">
+<name>
+<text>
+(move loc-x8-y3 loc-x9-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition46" source="state9" target="state10">
+<name>
+<text>
+(move loc-x8-y5 loc-x9-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition47" source="state13" target="state25">
+<name>
+<text>
+(move loc-x7-y4 loc-x8-y5)+</text>
+</name>
+<graphics>
+<position x="403.5" y="403.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="12" id="transition48" source="state13" target="state24">
+<name>
+<text>
+(move loc-x7-y4 loc-x8-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition49" source="state17" target="state15">
+<name>
+<text>
+(move loc-x7-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<position x="183.0" y="238.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition50" source="state19" target="state16">
+<name>
+<text>
+(move loc-x7-y3 loc-x7-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition51" source="state41" target="state13">
+<name>
+<text>
+(move loc-x6-y3 loc-x7-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="10" id="transition52" source="state6" target="state25">
+<name>
+<text>
+(move loc-x8-y4 loc-x8-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.3025851"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition53" source="state21" target="state31">
+<name>
+<text>
+(move loc-x6-y4 loc-x7-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="8" id="transition54" source="state35" target="state2">
+<name>
+<text>
+(move loc-x6-y1 loc-x6-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.0794415"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition55" source="state18" target="state41">
+<name>
+<text>
+(move loc-x5-y3 loc-x6-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition56" source="state34" target="state22">
+<name>
+<text>
+(move loc-x8-y2 loc-x8-y3)+</text>
+</name>
+<graphics>
+<position x="155.0" y="293.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition57" source="state9" target="state1">
+<name>
+<text>
+(move loc-x8-y5 loc-x9-y6)+</text>
+</name>
+<graphics>
+<position x="359.0" y="458.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition58" source="state3" target="state41">
+<name>
+<text>
+(move loc-x6-y2 loc-x6-y3)+</text>
+</name>
+<graphics>
+<position x="343.0" y="238.0"/>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="8" id="transition59" source="state23" target="state35">
+<name>
+<text>
+(move loc-x6-y0 loc-x6-y1)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.0794415"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition60" source="state14" target="state8">
+<name>
+<text>
+(move loc-x9-y3 loc-x9-y4)+</text>
+</name>
+<graphics>
+<position x="109.5" y="348.0"/>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition61" source="state15" target="state16">
+<name>
+<text>
+(move loc-x7-y3 loc-x7-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition62" source="state28" target="state3">
+<name>
+<text>
+(move loc-x5-y1 loc-x6-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition63" source="state2" target="state15">
+<name>
+<text>
+(move loc-x6-y2 loc-x7-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition64" source="state33" target="state22">
+<name>
+<text>
+(move loc-x7-y2 loc-x8-y3)+</text>
+</name>
+<graphics>
+<position x="237.5" y="293.0"/>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="31" id="transition65" source="state17" target="state5">
+<name>
+<text>
+(move loc-x7-y2 loc-x8-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="4.433987"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition66" source="state11" target="state6">
+<name>
+<text>
+(move loc-x8-y3 loc-x8-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition67" source="state34" target="state20">
+<name>
+<text>
+(move loc-x8-y2 loc-x8-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition68" source="state24" target="state10">
+<name>
+<text>
+(move loc-x8-y5 loc-x9-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="5" id="transition69" source="state27" target="state12">
+<name>
+<text>
+(move loc-x7-y5 loc-x8-y6)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.609438"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition70" source="state28" target="state35">
+<name>
+<text>
+(move loc-x5-y1 loc-x6-y1)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition71" source="state40" target="state24">
+<name>
+<text>
+(move loc-x8-y4 loc-x8-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="12" id="transition72" source="state24" target="state1">
+<name>
+<text>
+(move loc-x8-y5 loc-x9-y6)+</text>
+</name>
+<graphics>
+<position x="295.5" y="458.0"/>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</transition>
+<transition weight="18" id="transition73" source="state25" target="state1">
+<name>
+<text>
+(move loc-x8-y5 loc-x9-y6)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.8903718"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition74" source="state33" target="state20">
+<name>
+<text>
+(move loc-x7-y2 loc-x8-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition75" source="state41" target="state16">
+<name>
+<text>
+(move loc-x6-y3 loc-x7-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition76" source="state36" target="state33">
+<name>
+<text>
+(move loc-x7-y1 loc-x7-y2)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="12" id="transition77" source="state12" target="state1">
+<name>
+<text>
+(move loc-x8-y6 loc-x9-y6)+</text>
+</name>
+<graphics>
+<line shape="line" width="3.4849067"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition78" source="state37" target="state21">
+<name>
+<text>
+(move loc-x6-y3 loc-x6-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="4" id="transition79" source="state15" target="state13">
+<name>
+<text>
+(move loc-x7-y3 loc-x7-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.3862944"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition80" source="state38" target="state37">
+<name>
+<text>
+(move loc-x5-y2 loc-x6-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="47" id="transition81" source="state10" target="state1">
+<name>
+<text>
+(move loc-x9-y5 loc-x9-y6)+</text>
+</name>
+<graphics>
+<line shape="line" width="4.8501477"/>
+</graphics>
+</transition>
+<transition weight="2" id="transition82" source="state15" target="state22">
+<name>
+<text>
+(move loc-x7-y3 loc-x8-y3)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.6931472"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition83" source="state37" target="state4">
+<name>
+<text>
+(move loc-x6-y3 loc-x6-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="1" id="transition84" source="state21" target="state16">
+<name>
+<text>
+(move loc-x6-y4 loc-x7-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="1.0"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition85" source="state22" target="state6">
+<name>
+<text>
+(move loc-x8-y3 loc-x8-y4)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="3" id="transition86" source="state13" target="state9">
+<name>
+<text>
+(move loc-x7-y4 loc-x8-y5)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.0986123"/>
+</graphics>
+</transition>
+<transition weight="6" id="transition87" source="state24" target="state12">
+<name>
+<text>
+(move loc-x8-y5 loc-x8-y6)+</text>
+</name>
+<graphics>
+<line shape="line" width="2.7917595"/>
+</graphics>
+</transition>
+<transition weight="11" id="transition88" source="state5" target="state40">
+<name>
+<text>
+(move loc-x8-y3 loc-x8-y4)+</text>
+</name>
+<graphics>
+<position x="72.0" y="293.0"/>
+<line shape="line" width="3.3978953"/>
+</graphics>
+</transition>
+</tsml>

@@ -11,7 +11,4 @@ dataset: xes_grid_training, testing
 IncreasingTraces.java
 
 ### Table 4:
-BlocksWorld.java
-
-### Table 5:
 IPC_domains.java

@@ -23,7 +23,7 @@ public class RunningExample {
 		com.execute();
 		
 		@SuppressWarnings("rawtypes")
-		alignmentTool alignmentTool = new alignmentTool(6, "C:\\Users\\suzih\\OneDrive\\desktop\\train\\gene_XES\\");
+		alignmentTool alignmentTool = new alignmentTool(6, "C:\\Users\\suzih\\OneDrive\\desktop\\train\\gene_XES\\", "XES");
 		
 		FileWriter csvWriter = null;
 		if (plan_num == 0) {

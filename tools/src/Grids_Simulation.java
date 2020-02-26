@@ -12,35 +12,55 @@ public class Grids_Simulation {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 		
-		int[] worldArray = new int[]{30};
-		int[] goalsArray = new int[]{9};
-		int[] plansArray = new int[]{10,20,30};   // % suboptimal
 		
-		FileWriter csvWriter = new FileWriter("./30_statistics.csv");
+		// things need to be config
+		int[] worldArray = new int[]{10, 20, 30};  // world size
+		int[] goalsArray = new int[]{3, 6, 9};   // number of goals
+		int[] plansArray = new int[]{10, 20, 30, 40};  // training: X% sub-optimal; 40 stands for cross validate
+		
+		String outputFile = "grids.csv";
+		String format = "TSML";
+		String model_dir = "../datasets/table_2/training/";
+		String testing = "../datasets/table_2/testing/";
+		
+		
+		// start writing file
+		FileWriter csvWriter = new FileWriter("../outputs/" + outputFile);
 		csvWriter.append("World,Goals,Plans,Model,Step,Time,Cost,Prob,Results\n");
-		
-		//FileWriter timeWriter = new FileWriter("./learning_time.csv");
-		//timeWriter.append("World,Goals,Plans,Time\n");
 		
 		for(int world : worldArray) {
 			for(int goals : goalsArray) {
+				
+				// skip the cases when world size > 10 and goals number = 6
+				if (world > 10 && goals == 6) {
+					continue;
+				}
+				
 				for(int plans : plansArray) {
 					
-					String folder = "./xes_grid_training/"+ world +"_"+ goals +"_"+ plans+"/";
+					int test_plan = plans;
+					// make a judgment whether is cross validate or not
+					if (plans == 40) {
+						plans = 10;
+						test_plan = 30;
+					}
+					
+					// index the model
+					String folder = model_dir + world +"_"+ goals +"_"+ plans+"/";
 					
 					// only index once
 					@SuppressWarnings("rawtypes")
 					// create and index all PetriNet model in the folder
-					alignmentTool alignmentTool = new alignmentTool(goals, folder);
+					alignmentTool alignmentTool = new alignmentTool(goals, folder, format);
 					
 					// run simulations
 					for (int i = 0; i < goals; i++) {
 						
-						File dir = new File("./testing/"+ world +"_"+ goals +"_"+ plans);
+						File dir = new File(testing + world +"_"+ goals +"_"+ test_plan);
 						File listDir[] = dir.listFiles();
 						
 						// how many test cases for each goal
-						File dir_goal = new File("./testing/" + world + "_" + goals + "_" + plans + "/goal_" + i);
+						File dir_goal = new File(testing + world + "_" + goals + "_" + test_plan + "/goal_" + i);
 						File goalDir[] = dir_goal.listFiles();
 						int test = goalDir.length;
 						
@@ -48,10 +68,12 @@ public class Grids_Simulation {
 
 							Sequence s = xes_generator.pick_sequence(listDir[i].toString(), i, j);
 							int steps = s.sequence.size();
-							List<Integer> shuffle_index = shuffle_steps_index (steps);
+							
+							List<Integer> shuffle_index = shuffle_steps_index(steps);
 							ArrayList<Integer> step_list = percentList(steps);
 							
 							for (int step : step_list) {
+								//System.out.println(step);
 								List<Integer> tmp_index = shuffle_index.subList(0, step);
 								java.util.Collections.sort(tmp_index);
 								
@@ -61,7 +83,6 @@ public class Grids_Simulation {
 								ArrayList<Integer> costs = null;
 								ArrayList<Double> probabilities = null;
 								costs = alignmentTool.allCosts(tmp_s, step, "MoLDiagonal", "IncreasingCost");
-								//probabilities = alignmentTool.probabilities_without_beta(costs);
 								probabilities = alignmentTool.probabilities(costs);
 								
 								ArrayList<Integer> results = alignmentTool.best_match(probabilities);
@@ -102,11 +123,10 @@ public class Grids_Simulation {
 	
 	public static ArrayList<Integer> percentList (int total_steps){
 		ArrayList<Integer> lst = new ArrayList<Integer>();
-		
-        lst.add((int) (total_steps*0.1+1));
-		lst.add((int) (total_steps*0.3+1));
-		lst.add((int) (total_steps*0.5+1));
-		lst.add((int) (total_steps*0.7+1));
+		lst.add((int) (total_steps*0.1 + 1));
+		lst.add((int) (total_steps*0.3 + 1));
+		lst.add((int) (total_steps*0.5 + 1));
+		lst.add((int) (total_steps*0.7 + 1));
 		lst.add(total_steps);
 		return lst;
 	}
@@ -129,3 +149,4 @@ public class Grids_Simulation {
 	}
 	
 }
+

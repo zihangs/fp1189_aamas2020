@@ -1,8 +1,0 @@
-(pick-up o)
-(stack o w)
-(pick-up e)
-(stack e d)
-(unstack r p)
-(stack r o)
-(pick-up p)
-; cost = 7 (unit cost)

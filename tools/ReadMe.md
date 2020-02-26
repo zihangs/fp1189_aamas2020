@@ -19,3 +19,19 @@ the source codes are in ./src
 after creating the simulation output, we need to analysis the performence in terms of precision and recall:
 
 the method of calculating precision and recall: TODO
+
+
+
+
+
+Table 2
+run Jar file Grids_Simulation.jar
+
+```sh
+java -cp Grids_Simulation.jar Grids_Simulation
+```
+
+precision & recall: TODO
+
+Table 3
+
