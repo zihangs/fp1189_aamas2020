@@ -42,4 +42,7 @@ Run Jar file IPC_domains.jar
 ```sh
 java -cp IPC_domains.jar IPC_domains blocks-world
 ```
+the models are mined by using split miner
+
+precision & recall: TODO
 
