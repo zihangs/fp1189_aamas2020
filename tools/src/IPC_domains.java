@@ -10,12 +10,12 @@ public class IPC_domains {
 	public static XESGenerator xes_generator = new XESGenerator();
 	
 	public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
+		
+		// find the folder of the domain
 		String folder_name = args[0];
-		//String folder_name = "C:\\Users\\suzih\\eclipse-workspace\\SimulationTools\\sokoban";
-		
 		String domain = folder_name.substring(2, folder_name.length()-1);
-		
 		int[] percent_list = new int[]{10,30,50,70,100};
+		String format = "XES";
 		
 		FileWriter csvWriter = new FileWriter("./output.csv");
 		csvWriter.append("Percent,Real_Goal,Time,Cost,Prob,Results\n");
@@ -48,8 +48,9 @@ public class IPC_domains {
 				
 				if (model_count > 0) {
 				
-					// mine all models in the directory
 					
+					/*
+					// mine all models in the directory, using split miner
 					long start_learn = System.nanoTime();
 					String instruction = "java -Xmx14G -Xss10G -cp bpmtk.jar;lib\\* "
 							+ "au.edu.unimelb.services.ServiceProvider SMBD "
@@ -61,10 +62,11 @@ public class IPC_domains {
 					long end_learn = System.nanoTime();
 					long learning_time = end_learn - start_learn;
 					System.out.println(learning_time);
+					*/
 					
 					// index all models once
-					alignmentTool = new alignmentTool(model_count, target_folder);
-					}
+					alignmentTool = new alignmentTool(model_count, target_folder, format);
+				}
 				
 				// test for once
 				// create sequence for testing
