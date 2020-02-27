@@ -35,3 +35,11 @@ precision & recall: TODO
 
 Table 3
 
+
+
+Table 4
+Run Jar file IPC_domains.jar
+```sh
+java -cp IPC_domains.jar IPC_domains blocks-world
+```
+
