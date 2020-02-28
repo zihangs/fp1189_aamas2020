@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class IPC_domains {
 	public static XESGenerator xes_generator = new XESGenerator();
 	
+	@SuppressWarnings({ "rawtypes", "unchecked", "resource" })
 	public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
 		
 		// find the folder of the domain
@@ -92,6 +93,7 @@ public class IPC_domains {
 				System.out.println(probabilities);
 				System.out.println(results);
 				System.out.println("Step " + (step) + ": " + s.sequence);
+				
 				// csvWriter.append("Percent,Real_Goal,Time,Cost,Prob,Results\n");
 				csvWriter.append(percent + "," + s.model + "," + time + "," + output_cost + "," + output_prob + "," + output_results + "\n");
 				

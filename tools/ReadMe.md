@@ -2,14 +2,14 @@
 
 there are tools avaible
 
-BPM_Simulation.jar: the tool to replicate table 1
+PM_Simulation.jar: the tool to replicate table 1
 
 ```sh
-java -cp BPM_Simulation.jar Table_1_Simulator <dataset> <goals>
+java -cp PM_Simulation.jar PM_Simulation <dataset> <goals>
 ```
 for example: using "env_prmt_64" as for the dataset and there are 5 goals in that domain problem.
 ```sh
-java -cp BPM_Simulation.jar Table_1_Simulator env_prmt_64 5
+java -cp PM_Simulation.jar PM_Simulation env_prmt_64 5
 ```
 you can find the output in https://github.com/zihangs/fp1189_aamas2020/tree/master/outputs
 
@@ -35,6 +35,9 @@ precision & recall: TODO
 
 Table 3
 
+```sh
+java -cp IncreasingTraces.jar IncreasingTraces
+```
 
 
 Table 4

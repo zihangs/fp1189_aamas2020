@@ -13,29 +13,35 @@ public class IncreasingTraces {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 		
+		// config
 		int[] worldArray = new int[]{10};
 		int[] goalsArray = new int[]{6};
 		int[] plansArray = new int[]{10,100,1000};
+		String format = "TSML";
+		String output = "../outputs/statistics.csv";
+		String input_dir = "../datasets/table_3/";
 		
-		FileWriter csvWriter = new FileWriter("./statistics.csv");
+		FileWriter csvWriter = new FileWriter(output);
 		csvWriter.append("World,Goals,Plans,Model,Step,Time,Cost,Prob,Results\n");
 		for(int world : worldArray) {
 			for(int goals : goalsArray) {
 				for(int plans : plansArray) {
-					String folder = "./training_cases_"+ plans +"/10_6_30/";
+					
+					// all the training case using world size 10, goal number 6, sub-optimal 30%
+					String folder = input_dir + "training_cases_"+ plans +"/10_6_30/"; // plan: number of training traces
 					
 					// only index once
 					@SuppressWarnings("rawtypes")
 					// create and index all PetriNet model in the folder
-					alignmentTool alignmentTool = new alignmentTool(goals, folder);
+					alignmentTool alignmentTool = new alignmentTool(goals, folder, format);
 					
 					for (int i = 0; i < goals; i++) {
-						File dir = new File("./testing_cases_100/10_6_30");
+						File dir = new File(input_dir + "testing_cases_100/10_6_30");
 						File listDir[] = dir.listFiles();
 						
 						
 						// how many test cases for each goal
-						File dir_goal = new File("./testing_cases_100/10_6_30/goal_" + i);
+						File dir_goal = new File(input_dir + "testing_cases_100/10_6_30/goal_" + i);
 						File goalDir[] = dir_goal.listFiles();
 						int test = goalDir.length;
 						

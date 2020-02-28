@@ -9,9 +9,6 @@ public class generate_XES {
 	public static void main(String[] args) throws IOException, InterruptedException, 
 	ClassNotFoundException, SQLException, JSONException{
 		
-		// generate XES file from a fold of plans
-		//C:\\Users\\suzih\\OneDrive\\desktop\\miquel\\size_10_mixed
-		
 		File dir = new File(args[0]);
 		File listDir[] = dir.listFiles();
 		
