@@ -49,3 +49,5 @@ the models are mined by using split miner
 
 precision & recall: TODO
 
+#### check the jar files running on other systems, there might be null pointers due to missing initial values
+
