@@ -1,4 +1,6 @@
-# Goal Recognition Using Off-The-Shelf Process Mining Techniques
+# Descriptions
+
+### Goal Recognition Using Off-The-Shelf Process Mining Techniques
 
 training_examples: The traces for Figure 1 and Figure 2 in XES format (Footnote 3)
 
