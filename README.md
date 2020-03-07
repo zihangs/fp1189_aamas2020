@@ -8,4 +8,12 @@ tools: The code for replicate the experiments (Footnote 6)
  
 datasets: The dataset for the experiments (Footnote 7)
 
+1.python scripts
+
+2.miners
+
+3.planning tools
+
+demo videos (if possible)
+
 ![avatar](./pictures/architecture.png)
