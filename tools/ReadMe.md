@@ -2,6 +2,8 @@
 
 TODO: check initial values, re-compile jar files
 
+TODO: both works with IDEA and ESclipse
+
 PM_Simulation.jar: the tool to replicate table 1
 
 ```sh
