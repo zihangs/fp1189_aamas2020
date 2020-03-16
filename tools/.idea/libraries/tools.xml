@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tools">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Grids_Simulation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IncreasingTraces.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IPC_domains.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PM_Simulation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

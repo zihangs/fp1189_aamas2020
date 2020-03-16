@@ -1,6 +1,6 @@
 # explain how to use jar file to run the experiments.
 
-there are tools avaible
+TODO: check initial values, re-compile jar files
 
 PM_Simulation.jar: the tool to replicate table 1
 
