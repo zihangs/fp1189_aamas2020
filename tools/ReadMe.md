@@ -2,8 +2,6 @@
 
 TODO: check initial values, re-compile jar files
 
-TODO: both works with IDEA and ESclipse
-
 PM_Simulation.jar: the tool to replicate table 1
 
 ```sh
@@ -48,8 +46,4 @@ Run Jar file IPC_domains.jar
 java -cp IPC_domains.jar IPC_domains blocks-world
 ```
 the models are mined by using split miner
-
-precision & recall: TODO
-
-#### check the jar files running on other systems, there might be null pointers due to missing initial values
 
