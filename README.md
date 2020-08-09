@@ -15,5 +15,3 @@ datasets: The dataset for the experiments (Footnote 7)
 3.planning tools
 
 demo videos (if possible)
-
-![avatar](./pictures/architecture.png)
