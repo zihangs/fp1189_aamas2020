@@ -113,11 +113,6 @@ public class XESGenerator {
 	}
 	
 	
-	
-	
-	
-
-	
 	public Sequence pick_sequence(String directory, int plan_num) throws IOException {
 		File folder = new File(directory);
 		File[] listOfFiles = folder.listFiles();
@@ -131,7 +126,7 @@ public class XESGenerator {
 	    	if (count == plan_num) {
 	    		BufferedReader br = new BufferedReader(new FileReader(file));
 	    		String st;
-	    		while ((st = br.readLine()) != null) {
+	    		while ((st = br.readLine()) != null && st.length() > 0) {
 		        	char firstChar = st.charAt(0);
 		        	if (firstChar != ';') {
 		        		sequence.add(st);
