@@ -2,7 +2,7 @@
 
 This part explains the details of the motivating example in section 2 of our paper. The two traces in Figure 1 (green trace and red trace) are recorded in ``fig1/two_traces.xes`` (an event log). The observed traces towards six different goals (Figure 2) are stored under the directory ``fig2/``. The files with ``.xes`` extension are event logs and all the traces within each event log are toward to a same goal (displaying the same color in Figure 2). So there are 6 event logs are corresponding to the 6 goals (A-F) shown in Figure 2. The files with ``.pnml`` extension are petri nets which are mined from event logs using the **split miner** (instructions see below).
 
-![](..\pictures\fig1fig2.JPG)
+![image](https://github.com/zihangs/fp1189_aamas2020/blob/master/pictures/fig1fig2.JPG)
 
 
 
@@ -44,7 +44,7 @@ java -cp MotivatingExample.jar MotivatingExample 1
 
 After running the commands above, it will generate 2 ``CSV`` files under the directory ``training_examples/``, each result contains probability distribution from observing the first step to the last step (Figure 3), the first column represents the step number (starts from 0). The ``rational.csv`` shows the probability distribution chart of the green (rational) walk in Figure 1, and ``irrational.csv`` represents the red (irrational) walk in Figure 1.
 
-![](..\pictures\fig3.JPG)
+![image](https://github.com/zihangs/fp1189_aamas2020/blob/master/pictures/fig3.JPG)
 
 
 
