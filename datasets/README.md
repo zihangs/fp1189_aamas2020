@@ -1,6 +1,6 @@
 # Archived Datasets
 
-In the 5th section (experimental results) of our paper, we conducted 4 series of experiments to test our GR system under many different scenarios. Accordingly, we recorded and formatted the statistical outputs into 4 tables shown in our paper. The datasets used for conducting experiments are grouped by table and we will explain the details of datasets table by table as below.
+In the 5th section (experimental results) of our paper, we conducted 4 experiments to test our GR system under many different scenarios. Accordingly, we recorded and formatted the statistical outputs into 4 tables shown in our paper. Here, we provide the datasets used for replicating the 4 tables in our paper, and we will explain the details of datasets table by table as below.
 
 
 
@@ -40,7 +40,7 @@ java -cp PM_Simulation.jar PM_Simulation <dataset> <goals>
 java -cp PM_Simulation.jar PM_Simulation env_prmt_64 5
 ```
 
-Notice: before running this simulation, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
+Notice: before running this command, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
 
 
 
@@ -48,11 +48,11 @@ Notice: before running this simulation, you need to extract the archived dataset
 
 The archived dataset ``table_2.zip`` contains data for running experiments on grids domain, which is a typical domain used by many classical planning research. In the experiments, we controlled the variables and tested how does a particular factor affect the performance of our GR system. The 3 factors we tested are the *size of world*, the *number of goals* and the *optimality of traces*.
 
-**Size of world**: we used 3 different settings, 10 by 10 grids, 20 by 20 grids and 30 by 30 grids
+1. **Size of world:** we used 3 different settings, 10 by 10 grids, 20 by 20 grids and 30 by 30 grids
 
-**Number of goals**: there can be 3 or 6 or 9 goal states located in a grids domain
+2. **Number of goals:** there can be 3 or 6 or 9 goal states located in a grids domain
 
-**Optimality of traces**: for every traces towards to a particular goal, there should exist at least one optimal trace for achieving that goal. The optimal trace simply means a traces that takes least costs (steps) to reach the goal state. The optimality just measures how much a traces deviates from the optimal trace. We use 10% sub-optimal traces, which means costs of traces are between optimal cost (``1*opt``) and ``(1+10%)*opt``. Similarly, 20% means traces are between ``(1+10%)*opt`` and ``(1+20%)*opt``, 30% means between ``(1+20%)*opt`` and ``(1+30%)*opt``.
+3. **Optimality of traces:** for every traces towards to a particular goal, there should exist at least one optimal trace for achieving that goal. The optimal trace simply means a traces that takes least costs (steps) to reach the goal state. The optimality just measures how much a traces deviates from the optimal trace. We use 10% sub-optimal traces, which means costs of traces are between optimal cost (``1*opt``) and ``(1+10%)*opt``. Similarly, 20% means traces are between ``(1+10%)*opt`` and ``(1+20%)*opt``, 30% means between ``(1+20%)*opt`` and ``(1+30%)*opt``.
 
 All the traces are synthetic using the [K-star planner](https://github.com/ctpelok77/kstar) (we are still improving the planner for generating traces). The traces are splitted into 2 directories ``training/`` and ``testing/``, each directory contains many sub-directories with different settings ``sizeOfWorld_numberOfGoals_optimalityOfTraces/``. 
 
@@ -61,27 +61,26 @@ For example, ``training/10_3_10/`` contains event logs (``.xes`` files) in a 10 
 Generally, the traces in ``testing/10_3_10/`` are used for testing the GR performance after training with traces from ``training/10_3_10/``. So, sub-directories in ``training/`` and ``testing/`` are paired with each other accordingly.
 
 ```sh
-# The command for running the simulation in grid domain
+# The command for running the simulation in grids domain
 java -cp Grids_Simulation.jar Grids_Simulation
 ```
 
-Notice: before running this simulation, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
+Notice: before running this command, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
 
 
 
-### Table 3:  still grids, vary the training set
+### Table 3:  Learning Models Over Variate Number of Traces
+
+This experiment is still conducted in the domain of grids as above, more specifically, we set the world size to be 10 by 10, set 6 different goal states and set the optimality of traces between ``(1+20%)*opt`` and ``(1+30%)*opt``. However, with this domain setting, we did 3 experiment independently. Each time, we use a different number of traces for training (10, 100 and 1000 traces) and observe the performance of GR system.
+
+The archived dataset ``table_3.zip`` contains 3 training sets (``training_cases_10/``, ``training_cases_100/`` and ``training_cases_1000/``) and 1 testing set (``testing_cases_100/``). We use the same set with 100 traces for testing the 3 experiments. Inside of each set, the structures are similar with the datasets explained in table 2 above.
 
 ```sh
+# The command for running the experiment simulation
 java -cp IncreasingTraces.jar IncreasingTraces
 ```
 
-world size = 10, number of goals = 6, optimality = (20% - 30%]
-
-We keep all other variables fixed, only modify the number of traces for training model.
-
-training dataset: 10 traces, 100 traces, 1000 traces
-
-testing: always use 100 traces
+Notice: before running this command, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
 
 
 
