@@ -84,16 +84,17 @@ Notice: before running this command, you need to extract the archived dataset an
 
 
 
-### Table 4: Classical Planning Domain, Blocksworld, Comparison
+### Table 4: Comparison with Other GR Approaches in Blocksworld Domain
 
-From IPC dataset, blocksworld, preprocessed by our trace generator to created traces for training and testing
+In this part, we pick the *Blocksworld* domain from IPC dataset and archived the dataset in ``table_4.zip``. The IPC (International Planning Competition) dataset is widely used by research related to planning, goal recognition and other relevant areas, so it is crucial to use the same dataset from comparison purpose. However, utilizing this dataset is quite challenging for our approach. This dataset is designed for planner-based approaches which don't need traces for training, so in the dataset, each domain problem (PDDL) only contains 1 trace for testing. Therefore, before conducting the testing part of our experiment, we need to generate plenty of training traces as a pre-processing stage. In the pre-processing, we generate 1000 traces for each goal within each domain problem (with K-star planner).
 
-Python Scripts: new repo or just in there?
+After pre-processing, we stored all the generated traces in event log format in ``problems/<O%>/<N>/train/``. ``<O%>/`` is a sub-directory which means the corresponding testing trace has O% steps be observed. ``<N>/`` is a sub-directory means the N^th domain problem (notice there can be many different problem in the *blocksworld* domain. If you change the size of world or the number of goals, the problem will be different). Due to RAM limit in our current virtual machine, we can only partially pre-process the original dataset, the bottleneck is on the K-star planner when generating traces in some domain problems. We will try to improve and solve this issue later. The pre-processed testing data are stored in ``test/<O%>/<N>/``. Similarly, ``<O%>/`` stands for the percentage of observation, ``<N>/`` stands for the number (a ordered label) of the problem.
+
+We provided our pre-processed data here, so **you don't have to run the pre-process scripts** ``extract.py``.
 
 ```sh
+# The command for running simulation of IPC Blocksworld domain
 java -cp IPC_domains.jar IPC_domains blocks-world
 ```
 
-explain the structure of this data in details.
-
-Need to unzip the archived dataset, in some tmp place for running experiments
+Notice: before running this command, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
