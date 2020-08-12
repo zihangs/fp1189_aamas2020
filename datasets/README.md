@@ -42,15 +42,30 @@ java -cp PM_Simulation.jar PM_Simulation env_prmt_64 5
 
 Notice: before running this simulation, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
 
-### Table 2: Classical Planning Domain, Grids
+
+
+### Table 2: The Grids Domain from Classical Planning Community
+
+The archived dataset ``table_2.zip`` contains data for running experiments on grids domain, which is a typical domain used by many classical planning research. In the experiments, we controlled the variables and tested how does a particular factor affect the performance of our GR system. The 3 factors we tested are the *size of world*, the *number of goals* and the *optimality of traces*.
+
+**Size of world**: we used 3 different settings, 10 by 10 grids, 20 by 20 grids and 30 by 30 grids
+
+**Number of goals**: there can be 3 or 6 or 9 goal states located in a grids domain
+
+**Optimality of traces**: for every traces towards to a particular goal, there should exist at least one optimal trace for achieving that goal. The optimal trace simply means a traces that takes least costs (steps) to reach the goal state. The optimality just measures how much a traces deviates from the optimal trace. We use 10% sub-optimal traces, which means costs of traces are between optimal cost (``1*opt``) and ``(1+10%)*opt``. Similarly, 20% means traces are between ``(1+10%)*opt`` and ``(1+20%)*opt``, 30% means between ``(1+20%)*opt`` and ``(1+30%)*opt``.
+
+All the traces are synthetic using the [K-star planner](https://github.com/ctpelok77/kstar) (we are still improving the planner for generating traces). The traces are splitted into 2 directories ``training/`` and ``testing/``, each directory contains many sub-directories with different settings ``sizeOfWorld_numberOfGoals_optimalityOfTraces/``. 
+
+For example, ``training/10_3_10/`` contains event logs (``.xes`` files) in a 10 by 10 grids domain with 3 goal states and all the costs of traces in the event logs are between ``optimal`` and ``(1+10%)*opt``. These traces are used for training models and we use the *transition system miner* (TSM) for mining (training). The ``.pnml`` files are the returned process models after training. Another example for testing set, ``testing/10_3_10/`` contains 3 sub-directories corresponding to 3 different goal states. Each sub-directory contains all the traces towards to the same goal, the testing traces are in ``sas_plan`` format. 
+
+Generally, the traces in ``testing/10_3_10/`` are used for testing the GR performance after training with traces from ``training/10_3_10/``. So, sub-directories in ``training/`` and ``testing/`` are paired with each other accordingly.
 
 ```sh
+# The command for running the simulation in grid domain
 java -cp Grids_Simulation.jar Grids_Simulation
 ```
 
-training dataset + testing dataset
-
-size of world + number of goals + optimality of traces
+Notice: before running this simulation, you need to extract the archived dataset and put the data in correct directory, details of instructions see [tools](https://github.com/zihangs/fp1189_aamas2020/tree/master/tools).
 
 
 
