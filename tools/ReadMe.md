@@ -1,4 +1,8 @@
-# explain how to use jar file to run the experiments.
+# Tools for Experiments
+
+This directory contains all the tools for replicating the experimental results shown in our paper. The tools are complied into runnable jar files. To successfully run the experiments, we need to prepare the dataset since each jar file require a well structured dataset. The archived datasets stored in [here](https://github.com/zihangs/fp1189_aamas2020/tree/master/datasets) and we provided a more informative explanation of the datasets.
+
+
 
 TODO: check initial values, re-compile jar files
 
