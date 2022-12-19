@@ -39,9 +39,6 @@
 <event>
 <string key="concept:name" value="(move loc-x10-y5 loc-x10-y6)"/>
 </event>
-<event>
-<string key="concept:name" value="(move loc-x10-y6 loc-x10-y7)"/>
-</event>
 </trace>
 <trace>
 <event>
@@ -62,9 +59,6 @@
 <event>
 <string key="concept:name" value="(move loc-x10-y5 loc-x10-y6)"/>
 </event>
-<event>
-<string key="concept:name" value="(move loc-x10-y6 loc-x9-y6)"/>
-</event>
 </trace>
 <trace>
 <event>
@@ -84,9 +78,6 @@
 </event>
 <event>
 <string key="concept:name" value="(move loc-x9-y5 loc-x10-y6)"/>
-</event>
-<event>
-<string key="concept:name" value="(move loc-x10-y6 loc-x9-y6)"/>
 </event>
 </trace>
 <trace>

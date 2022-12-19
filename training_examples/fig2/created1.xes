@@ -209,7 +209,7 @@
 <string key="concept:name" value="(move loc-x5-y1 loc-x4-y2)"/>
 </event>
 <event>
-<string key="concept:name" value="(move loc-x4-y2 loc-x4-y2)"/>
+<string key="concept:name" value="(move loc-x4-y2 loc-x4-y3)"/>
 </event>
 <event>
 <string key="concept:name" value="(move loc-x4-y3 loc-x3-y3)"/>
@@ -247,7 +247,7 @@
 <string key="concept:name" value="(move loc-x5-y1 loc-x4-y2)"/>
 </event>
 <event>
-<string key="concept:name" value="(move loc-x4-y2 loc-x4-y2)"/>
+<string key="concept:name" value="(move loc-x4-y2 loc-x4-y3)"/>
 </event>
 <event>
 <string key="concept:name" value="(move loc-x4-y3 loc-x3-y3)"/>
@@ -288,7 +288,7 @@
 <string key="concept:name" value="(move loc-x4-y1 loc-x4-y2)"/>
 </event>
 <event>
-<string key="concept:name" value="(move loc-x4-y2 loc-x4-y2)"/>
+<string key="concept:name" value="(move loc-x4-y2 loc-x4-y3)"/>
 </event>
 <event>
 <string key="concept:name" value="(move loc-x4-y3 loc-x3-y3)"/>

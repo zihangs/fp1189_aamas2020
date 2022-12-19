@@ -320,7 +320,7 @@
 <string key="concept:name" value="(move loc-x3-y5 loc-x2-y6)"/>
 </event>
 <event>
-<string key="concept:name" value="(move loc-x2-y6 loc-x3-y7)"/>
+<string key="concept:name" value="(move loc-x2-y6 loc-x2-y7)"/>
 </event>
 <event>
 <string key="concept:name" value="(move loc-x2-y7 loc-x2-y8)"/>
